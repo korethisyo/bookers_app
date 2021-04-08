@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  font-family: Tahoma, Verdana, 'Franklin Gothic Medium', 'MV Boil', sans-serif;
+}
+
+/* top view start from here */
+.top-title {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.top-text {
+  padding-top: 30px;
+  padding-left: 60px;
+  font-size: 12px;
+}
+
+.start-button {
+  padding-top: 30px;
+  padding-left: 60px;
+  font-size: 12px;
+}
+/* top view done here */
+
+/*index view start from here*/
+/*index view done here*/
