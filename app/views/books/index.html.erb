@@ -10,8 +10,8 @@
         <td><%= book.title %></td>
         <td><%= book.body %></td>
         <td><%= link_to "Show", book_path(book.id) %></td>
-        <td><a href="https://0f367b562850492b810a40105eeb4692.vfs.cloud9.us-east-1.amazonaws.com/">Edit</a></td>
-        <td><a href="https://0f367b562850492b810a40105eeb4692.vfs.cloud9.us-east-1.amazonaws.com/">Destroy</a></td>
+        <td><%= link_to "Edit", edit_book_path(book.id) %></td>
+        <td><%= link_to "Destroy", book_path(book.id), method: :delete %></td>
     </tr>
     <% end %>
 </table>
@@ -23,4 +23,4 @@
   <h4>Body</h4>
   <%= f.text_area :body %>
   <%= f.submit "Create Book" %>
- <% end %>
+<% end %>
