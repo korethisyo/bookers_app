@@ -23,6 +23,11 @@ body {
   font-family: Tahoma, Verdana, 'Franklin Gothic Medium', 'MV Boil', sans-serif;
 }
 
+.flash {
+  color: green;
+  font-size: 13px;
+  margin: 33px;
+}
 /* top view start from here */
 .top-title {
   padding-top: 30px;
@@ -73,7 +78,7 @@ td {
   margin: 15px 0;
 }
 
-.error-message {
+#error-message {
   width: 450px;
   border: 2px solid red;
   margin-bottom: 10px;
@@ -120,6 +125,23 @@ h3 {
 .back-link {
   font-size: 13px;
   display: inline-block;
+}
+
+.edit-link {
+  font-size: 13px;
+  border-right: 1px solid;
+  padding-right: 5px;
+  display: inline-block;
+}
+
+.show-title {
+  font-size: 14px;
+  margin: 33px;
+}
+
+.show-body {
+  font-size: 14px;
+  margin: 33px;
 }
 /*index view start from here*/
 /*index view done here*/
