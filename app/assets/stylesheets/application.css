@@ -50,7 +50,7 @@ table {
   margin-bottom: 15px;
 }
 
-.title1 {
+h1 {
   padding-bottom: 15px;
   font-size: 27px;
 }
@@ -106,6 +106,20 @@ h3 {
   display: block;
 }
 /* top view done here */
+.update-button {
+  margin-bottom: 10px
+}
 
+.show-link {
+  font-size: 13px;
+  border-right: 1px solid;
+  padding-right: 5px;
+  display: inline-block;
+}
+
+.back-link {
+  font-size: 13px;
+  display: inline-block;
+}
 /*index view start from here*/
 /*index view done here*/
